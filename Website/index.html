@@ -1,0 +1,162 @@
+<!-- Pick up: Section 11 
+URL: https://scrimba.com/learn/portfolio/styling-the-services-section-c2PaBdSr -->
+<DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="veiwport" content="width=device-width, intial-scale=1.0">
+		<title>Turner DeMuth Portfolio Website</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+
+		<!-- Google fonts - can switch out -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;1,900&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+	
+		<link rel="stylesheet" type="text/css" href="css/TD website.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<a href="TD website.html#home">
+				<img src="img/jpg1.png" alt="">
+				</a>
+			</div>
+			<button class="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger"></span>
+			</button>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+					<li class="nav__item"><a href="#services" class="nav__link">My passions</a></li>
+					<li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+					<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Introduction -->
+
+		<section class="intro" id="home">
+			<h1 class="section__title section__title--intro">
+				Hi, I am <strong>Turner DeMuth</strong>
+			</h1>
+			 <p class="section__subtitle section__subtitle--intro"> Technology &nbsp;&nbsp; • &nbsp;&nbsp; Education &nbsp;&nbsp; • &nbsp;&nbsp; Entrepreneurship </p>
+			<img src="img/jpg3.jpg" alt="picture of Turner smiling" class="intro__img">
+		</section>
+
+
+		<!-- My section -->
+		<section class="my-services" id="services">
+			<h2 class="section__title section__title--services">My passions</h2>
+			<div class="services">
+				<div class="service">
+					<h3>Technology</h3>
+					<p>I am fasciated by how technology can be used to help solve the worlds toughest problems. I believe there is enormous untapped potential in almost all areas of human life that can be realized with the help of technology. 
+						<br /> <br />
+					I currently work in the Technology Investment Banking covering Technology companies ranging from  software providers to internet applications to large technology conglomerates. I will soon start in Growth Equtiy investing in high-growth  software providers.</p>
+				</div>
+
+				<div class="service">
+					<h3>Education</h3>
+					<p>I believe learning and critically thinking are the foundation to creating a better society and world. The information we know and how we see the world impacts all aspect of our lives and every decsion we make. 
+						<br /> <br />
+					I worked for one year as a High School Physics Teacher on the West Side of Chicago. I'm passionate about helping open opportunities for all students through quality education.</p>
+				</div>
+
+				<div class="service">
+					<h3>Entreprenuership</h3>
+					<p> Entreprenuers push society forward, for better or for worse. They have the ability to impact culture and society through what they create and how they create it. It is through entrprenuership that we see innovation, change, and new ways of thinking.
+						<br /> <br />
+					I am passionate about entrprenuership and aspire to start my own venture one day. I am unsure of the specifics of the venture, but I know that it will be aimed to make the world a better place.</p>
+				</div>
+		
+			</div>
+			<a href="#work" class="btn">My work</a>
+		</section>
+
+
+		<!-- About me-->
+		<section class="about-me" id="about">
+			<h2 class="section__title section__title--about">Who I am</h2>
+			<p class="section__subtitle section__subtitle--about">Professional Biography</p>
+
+			<div class="about-me__body">
+				<p>I graduated from Columbia University in 2018 with a B.A. in Economics and Psychology. At Columbia, I played varsity Football and was a part of the Columbia Organization of Rising Entreprnuers (CORE). </p>
+				<p>After Columbia, I moved to the West Side of Chicago and taught High School Physics for one year at Chicago Hope Academy. I also coached football and ran Chicago Hope's STEM Club.</p>
+				<p>Today, I am a part of the Technology Investment Banking Group at Credit Suisse in New York. I joined the group in July 2019 as an Analyst helping cover a wide range of Technology companies wtih M&A, Equity, Debt, and SPAC transactions.</p>
+				<p>Starting July 2021, I will join Serent Capital as a Growth Equtiy Associate in Austin, Texas. I will focus on investing in high-growth SaaS Vertical Software companies.</p>
+			</div>
+
+			<img src="img/png8.jpeg" alt="picture 3" class="about-me__img">
+		</section>
+
+		<!-- My work -->
+		<section class="my-work" id="work">
+			<h2 class="section__title">My work</h2>
+			<p>I've started to build  my own porfolio of projects as I've explored various interests and developed different skills. See below for what I've been working on!</p>
+				<br /> <br />
+
+			<div class="portfolio">
+				<!--- portfolio item 1 -->
+				<a href="TD portfolio.html" class="portfolio__item">
+					<img src="img/Img9.png" alt="" class="portfolio__img" class="portfolio__img">
+				</a>
+
+				<!--- portfolio item 2 -->
+				<a href="TD portfolio2.html" class="portfolio__item">
+					<img src="img/Img10.png" alt="" class="portfolio__img" class="portfolio__img">
+				</a>
+
+				<!--- portfolio item 3 -->
+				<a href="TD portfolio3.html" class="portfolio__item">
+					<img src="img/Img16.png" alt="" class="portfolio__img" class="portfolio__img">
+				</a>
+<!---
+				<a href="TD portfolio.html" class="portfolio__item">
+					<img src="img/Img12.png" alt="" class="portfolio__img" class="portfolio__img">
+				</a>
+
+				<a href="TD portfolio.html" class="portfolio__item">
+					<img src="img/jpg4.jpg" alt="" class="portfolio__img" class="portfolio__img">
+				</a>
+
+
+				<a href="TD portfolio.html" class="portfolio__item">
+					<img src="img/jpg4.jpg" alt="" class="portfolio__img" class="portfolio__img">
+				</a>
+											-->
+			</div>
+
+		</section>
+
+		<!-- footer -->
+		<footer class="footer">
+			<a href="mailto:tedemuth@gmail.com" class="footer__link">tedemuth@gmail.com</a>
+
+			<ul class="social-list">
+				<li class="social-list__item">
+					<a class="social-list__link" href="https://www.linkedin.com/in/turner-demuth-979339b0/" target="_blank">
+						<i class="fab fa-linkedin"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a class="social-list__link" href="https://www.facebook.com/turner.demuth" target="_blank">
+						<i class="fab fa-facebook-square"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a class="social-list__link" href="https://twitter.com/TurnerDeMuth" target="_blank">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</li>
+			</ul>
+		</footer>
+		</footer>
+
+		<script src="JS/index.js"></script>
+
+	</body>
+</html>
